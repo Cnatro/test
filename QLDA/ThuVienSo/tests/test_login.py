@@ -9,7 +9,7 @@ class TestLogin(unittest.TestCase):
         self.assertTrue(auth_login("user1", 123))
 
     def test_case_2(self):
-        self.assertFalse(auth_login("user1",1221))
+        self.assertFalse(auth_login("user1",121))
 
 
 
